@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Volunteer - Helping Hands NGO</title>
+  <style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+body {
+  background-image: url('https://t3.ftcdn.net/jpg/04/29/44/78/360_F_429447879_XywDGuO3qxM1l5F3vkomIuPnT4oJpgBC.jpg');
+  background-repeat:no-repeat;
+  background-size:cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+header {
+  background-color: rgba(86, 112, 84, 0.6);
+  color: #fff;
+  padding: 1rem 0;
+}
+.container.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+}
+.head {
+  font-size: 28px;
+  font-weight: bold;
+  color: #333;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+nav a:hover {
+  color: #5d615d;
+}
+.vol {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 20px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+}
+.vol-content {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 20px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+  padding: 30px;
+  width: 100%;
+  max-width: 500px;
+  color: #fff;
+}
+.vol-content h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.hero-content p {
+  margin-bottom: 25px;
+  font-size: 1rem;
+}
+.vol-content label {
+  font-weight: bold;
+}
+.vol-content input,
+.vol-content textarea {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  margin-top: 5px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  outline: none;
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+.vol-content input::placeholder,
+.vol-content textarea::placeholder {
+  color: #e0e0e0;
+}
+.vol-content .btn {
+  background: #7b877b;
+  color: #fff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+.vol-content .btn:hover {
+  background: #545754;
+}
+footer {
+  background-color: rgba(86, 112, 84, 0.6);
+  text-align: center;
+  color: #fff;
+  padding: 1rem 0;
+}
+</style>
+</head>
+<body>
+  <header>
+    <div class="container nav-container">
+      <h1 class="head">Helping Hands</h1>
+      <nav>
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="volunteer.html">Volunteer</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <section class="vol">
+    <div class="container">
+      <div class="vol-content">
+        <h2>Volunteer With Us</h2>
+        <p>We are always looking for kind-hearted individuals to join our team. Whether it's helping out at events or donating your skills, there's a place for you at Helping Hands.</p>
+        <form action="#" method="post">
+          <label for="name">Full Name:</label><br>
+          <input type="text" id="name" name="name" required><br><br>
+          <label for="email">Email:</label><br>
+          <input type="email" id="email" name="email" required><br><br>
+          <label for="interest">Why do you want to volunteer?</label><br>
+          <textarea id="interest" name="interest" rows="4" required></textarea><br><br>
+          <button type="submit" class="btn">Submit</button>
+        </form>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Helping Hands NGO. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
+
