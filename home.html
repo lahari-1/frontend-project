@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Helping Hands NGO</title>
+  <style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url('https://t3.ftcdn.net/jpg/04/29/44/78/360_F_429447879_XywDGuO3qxM1l5F3vkomIuPnT4oJpgBC.jpg');
+  background-repeat:no-repeat;
+  font-family: 'Segoe UI', sans-serif;
+  background-size:cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+header {
+  background-color: rgba(86, 112, 84, 0.6);
+  color: #fff;
+  padding: 1rem 0;
+}
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+  color: #333;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+nav a:hover {
+  color: #5d615d;
+}
+.vol {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 0;
+  gap: 40px;
+}
+
+.vol-content {
+  flex: 1;
+  min-width: 280px;
+}
+
+.vol-content h2 {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.vol-content p {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #7b877b;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #545754;
+}
+
+.vol-image {
+  flex: 1;
+  min-width: 280px;
+  text-align: center;
+}
+
+.vol-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+}
+footer {
+  background-color: rgba(86, 112, 84, 0.6);
+  text-align: center;
+  color: #fff;
+  padding: 1rem 0;
+}
+
+
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container nav-container">
+      <h1 class="logo">Helping Hands</h1>
+      <nav>
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="volunteer.html">Volunteer</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="vol">
+    <div class="container">
+      <div class="vol-content">
+        <h2>Become a Volunteer</h2>
+        <p>Join us in our mission to spread love and kindness by volunteering your time and efforts.</p>
+        <a href="volunteer.html" class="btn">Join Us</a>
+      </div>
+      <div class="vol-image">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYcSMskfmrXzsBvamj1gbvN86bHA5iTlKTBg&s">
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Helping Hands NGO. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
